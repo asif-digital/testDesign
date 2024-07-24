@@ -1,0 +1,45 @@
+name: sara_plus
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.0.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_nav_bar: ^5.0.6
+  marquee: ^2.2.3
+  line_icons: ^2.0.3
+  share: ^2.0.4 
+  persistent_bottom_nav_bar: ^5.0.2
+  pin_code_fields: ^8.0.0
+  url_launcher: ^6.1.14
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+
+  assets:
+    - assets/fonts/
+    - assets/images/ 
+
+  fonts:
+    - family: PopR
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+    - family: PopB
+      fonts:
+        - asset: assets/fonts/Poppins-Bold.ttf
+    - family: PopS
+      fonts:
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+    - family: PopM
+      fonts:
+        - asset: assets/fonts/Poppins-Medium.ttf
